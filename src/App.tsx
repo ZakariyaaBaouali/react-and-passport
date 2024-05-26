@@ -3,7 +3,7 @@ import styled from "styled-components"
 const App = ()  => {
 
   const SignWithGoogle = () => {
-    window.open('' , '_self')
+    window.open('http://localhost:8080/auth/google' , '_self')
   }
 
   return (
